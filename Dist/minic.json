@@ -1,4 +1,7 @@
 {
    "threads": 1,
-   "mateFinder" : false
+   "mateFinder": false,
+   "ttSizeMb": 512,
+   "ttESizeMb": 512,
+   "book":true
 }
