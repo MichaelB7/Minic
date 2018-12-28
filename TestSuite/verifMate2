@@ -1,0 +1,11 @@
+#!/bin/bash
+filename="tata"
+i=0
+while read -r line
+do
+   echo $line
+   log=log.mate.$i
+   i=$((i+1))
+   echo $line > $log
+   ./Dist/minic_dev_linux_x64_see4.2 -mateFinder "$line" 12  >> $log
+done < "$filename"
