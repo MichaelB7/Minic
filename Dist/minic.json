@@ -1,7 +1,1 @@
-{
-   "threads": 1,
-   "mateFinder": false,
-   "ttSizeMb": 1024,
-   "book": true,
-   "bookFile": "book_small.bin"
-}
+../minic.json
